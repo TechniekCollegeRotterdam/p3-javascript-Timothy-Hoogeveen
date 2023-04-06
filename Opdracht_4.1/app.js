@@ -25,3 +25,4 @@ function minus(){
 
     anwser.innerText = ans
 };
+
