@@ -2,27 +2,47 @@ let anwser = document.getElementById("anwser");
 let num1 = document.getElementById("num1")
 let num2 = document.getElementById("num2")
 function multiply(){
-let ans = num1.value * num2.value;
+  if(num1.value > 0 && num2.value > 0) {
+    let ans = num1.value * num2.value;
 
-anwser.innerText = ans
+    anwser.innerText = ans
+  }   else {
+    anwser.innerText = "getal is te laag";
+  }
+
 };
 
 function devide(){
-    let ans = num1.value / num2.value;
-
-anwser.innerText = ans
+    if(num1.value > 0 && num2.value > 0) {
+        let ans = num1.value / num2.value;
+    
+        anwser.innerText = ans
+      }   else {
+        anwser.innerText = "getal is te laag";
+      }
+    
 
 };
 
 function add(){
-    let ans = num1.value + num2.value;
-
-    anwser.innerText = ans
+    if(num1.value > 0 && num2.value > 0) {
+        let ans = num1.value + num2.value;
+    
+        anwser.innerText = ans
+      }   else {
+        anwser.innerText = "getal is te laag";
+      }
+    
 };
 
 function minus(){
-    let ans = num1.value - num2.value;
-
-    anwser.innerText = ans
+    if(num1.value > 0 && num2.value > 0) {
+        let ans = num1.value - num2.value;
+    
+        anwser.innerText = ans
+      }   else {
+        anwser.innerText = "getal is te laag";
+      }
+    
 };
 
